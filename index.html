@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Radio y Aceleracion</title>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@v0.149.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@v0.149.0/examples/jsm/"
+          }
+        }
+      </script>
+    <script type="module" src="main_three.js"></script>
+</head>
+
+<body>
+    <section class="layout">
+        <div class="calculadora">
+            <input type="number" id="Tm" placeholder="Torque Motor(Tm)">
+            <input type="number" id="r" placeholder="Radio 1 (R)">
+            <input type="number" id="miu" placeholder="Miu">
+            <input type="number" id="m" placeholder="Masa(m)">
+            <br>
+            <button onclick="calculate()">Calcular</button>
+            <div id="resultadorRadio"></div>
+            <div id="resultadorAceleracion"></div>
+
+        </div>
+        <div>
+            <div id="Carrito3D">
+                ffffff
+            </div>
+        </div>
+        <div>a</div>
+        <div>b</div>
+        <div>c</div>
+        <div>d</div>
+        <div>e</div>
+        <div>f</div>
+        <div>g</div>
+    </section>
+</body>
+
+</html>
